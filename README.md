@@ -1,2 +1,4 @@
 # chrome-ad-blocker
-The source code of Chrome Ad Blocker (chrome.google.com/webstore/detail/a/aijoombajdkocpgcmnofogpjiakjhmpk) as a .zip. Download `ChromeAdBlocker.zip`.
+This is the source code of Chrome Ad Blocker ([chrome.google.com/webstore/detail/a/aijoombajdkocpgcmnofogpjiakjhmpk][]) You can download ChromeAdBlocker.zip, or look at the code in the source folder. 
+
+**Chrome Ad Blocker is licenced under the [GNU GPL v3][https://www.gnu.org/licenses/gpl-3.0.en.html]**
