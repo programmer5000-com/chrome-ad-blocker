@@ -4,10 +4,15 @@
       "default_popup": "popup.html"
    },
    "content_scripts": [{
-      "js": [ "popup.js" ],
-      "matches": [ "<all_urls>" ]
+		"matches": [
+			"<all_urls>"
+		],
+		"js": [
+			"page.js"
+		],
+		"run_at": "document_end"
    }],
-   "description": "This extension removes the ads on the page when you click on the button.",
+   "description": "This extension removes the ads on the page.",
    "icons": {
       "128": "icon.png",
       "16": "icon.png",
@@ -19,5 +24,5 @@
 		"activeTab",
 		"<all_urls>"
 	],
-   "version": "2.7"
+   "version": "3.1"
 }
